@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+
+{% load staticfiles %}
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="shortcut icon" type="image/png" href="{%  static 'favicon.ico' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'demo/style.css' %}"/>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+    <link rel="stylesheet" href="Contact-1.css" media="screen">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+
+    <meta name="theme-color" content="#478ac9">
+  </head>
+  <body>
+    <section class="u-align-center u-clearfix u-section-1" id="sec-cad4">
+      <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-valign-middle-xs u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <h2 class="u-text u-text-1" spellcheck="false">For all the&nbsp;<br>
+                    <span class="u-text-palette-3-base">Music Lovers &lt;3 </span>
+                    <br>
+                  </h2>
+                  <p class="u-text u-text-2" spellcheck="false">Here, we can store our music snips and listen to them as much as we want</p>
+                  <a href="{% url 'music:index' %}" class="u-active-black u-align-center u-btn u-btn-round u-button-style u-hover-black u-palette-3-base u-radius-50 u-btn-1">Visit the music page</a>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-30 u-image-1" data-image-width="1280" data-image-height="854">
+                <div class="u-container-layout u-valign-middle-md u-valign-middle-sm u-container-layout-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-b0ac"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1" spellcheck="false">Contact me at : shreyash9129@gmail.com | +91-9129864320</p>
+      </div></footer>
+  </body>
+</html>
